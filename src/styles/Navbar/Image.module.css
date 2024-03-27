@@ -1,0 +1,43 @@
+.image{
+    height: 25%;
+    background-color: rgb(230 230 230);
+    border-radius: 30px;
+    margin: 0px 20px;
+    /* margin-bottom: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Image.module.css */
+
+.cardIcon {
+    font-size: 140px; /* Set the size of the icon */
+    color: #0064d0; /* Set the color of the icon */
+}
+.allAccBtn{
+    background-color: #3dffe5;
+    color: rgb(79, 70, 70);
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    transition: all 0.3s ease; /* Smooth transition effect */
+
+}
+
+
+.allAccBtn:hover{
+    background-color: #83f143; /* Change background color on hover */
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    box-shadow: 0 0 8px #83f143; /* Add box shadow on hover */
+}
+img{
+    width: 50%;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
