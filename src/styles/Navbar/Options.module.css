@@ -1,0 +1,33 @@
+.options{
+    height: 30%;
+    /* background-color: rgb(201, 135, 55); */
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+/* Options.module.css */
+.icon {
+    margin: 0px 5px; /* Add some space between the icon and the text */
+    padding: 0px 10px;
+  }
+
+.link {
+    background-color: #ffffff; /* Blue background color */
+    color: rgb(79, 70, 70); /* White text color */
+    padding: 15px 10px; /* Padding */
+    margin-right: 65px; /* Margin between buttons */
+    border: none; /* Remove border */
+    border-radius: 15px; /* Add border radius */
+    cursor: pointer; /* Cursor style */
+    display: block;
+    /* width: 100%; */
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: #ff3c35; /* Darker blue background color on hover */
+    text-decoration: none;
+    color: #ffffff;
+}
+  

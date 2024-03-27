@@ -1,0 +1,22 @@
+.logo {
+    height: 5%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    color: rgb(0, 0, 0);
+    font-size: 0.6rem; 
+    font-weight: bold; 
+    border-bottom: 2px solid rgb(181, 181, 181);
+    margin-left:10px;
+  }
+
+  .logo > *:not(:last-child) {
+    margin-right: 0.5rem;
+  }
+
+  .icon{
+    align-items: bottom;
+    color: green;
+    size: 32;
+  }
