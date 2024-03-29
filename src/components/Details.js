@@ -1,10 +1,14 @@
 import React from 'react';
 import styles from '../styles/Details.module.css'
+import Search from './Details/Search';
+import Overview from './Details/Overview';
+
+
 function Details() {
   return (
     <div className={styles.details}>
-      {/* Add your details content here */}
-      Details
+      <Search/>
+      <Overview/>
     </div>
   );
 }
