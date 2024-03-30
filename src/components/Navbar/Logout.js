@@ -6,8 +6,8 @@ function Logout() {
 return (
   <div className={styles.logout}>
     <div className={styles.card}>
-      <CiLogout className={styles.icon}/>
-      <button className={styles.logoutBtn}><h3>Logout</h3></button>
+
+        <button className={styles.logoutBtn}><CiLogout className={styles.icon}/>Logout</button>
     </div>
 
   </div>

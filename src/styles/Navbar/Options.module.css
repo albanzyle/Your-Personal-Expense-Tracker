@@ -1,9 +1,12 @@
 .options{
-    height: 30%;
+    height: 15rem;
     /* background-color: rgb(201, 135, 55); */
     display: flex;
     flex-direction: column;
+    font-size: larger;
+    font-weight: 700;
     margin: 30px;
+    
 }
 
 /* Options.module.css */

@@ -1,0 +1,27 @@
+/* Notifications.module.css */
+
+.notification{
+    width:40rem;
+    display: flex;
+    justify-content: end; /* Align items at the end with space between them */
+    align-items: center; 
+}
+
+.iconsContainer {
+    display: flex;
+}
+
+.icons {
+    margin-right: 10px; /* Add margin between the icons */
+}
+
+.icons:hover{
+    cursor: pointer;
+}
+.image {
+    width: 30px; /* Set width of the image */
+    height: 30px; /* Set height of the image */
+    border-radius: 50%; /* Make the image circular */
+    margin-right: 20px;
+}
+
