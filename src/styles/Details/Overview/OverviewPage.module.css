@@ -1,8 +1,11 @@
 .top{
     display: inline-block;
     width: 100%;
+    color: rgba(0, 0, 0, 0.523);
 }
-
+.top h1 {
+    color: rgba(0, 0, 0, 0.837);
+}
 .bottom{
     display: flex;
     flex-direction: row;

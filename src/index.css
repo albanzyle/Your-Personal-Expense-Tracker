@@ -1,13 +1,24 @@
+/* Apply Roboto font family to the body */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Apply Roboto font family to specific elements */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Example of applying different font families to different elements */
+/* Header with Montserrat font */
+.header {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Paragraphs with Lato font */
+.text {
+  font-family: 'Lato', sans-serif;
 }
