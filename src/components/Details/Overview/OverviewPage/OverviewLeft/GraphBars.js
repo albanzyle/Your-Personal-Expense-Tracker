@@ -57,7 +57,7 @@ const options = {
   plugins: {
     title: {
       display: true,
-      text: 'Chart.js Bar Chart - Stacked',
+      text: 'Leket qe ke ne banka te ndryshme, cach ...',
     },
   },
   responsive: true,
@@ -78,7 +78,7 @@ const options = {
 const GraphBars = () => {
   return (
     <div className={styles.card}>
-      <h2>Leket qe ke ne banka te ndryshme, cach ...</h2>
+      <h2></h2>
       <Bar data={data} options={options} />
     </div>
   );

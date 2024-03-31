@@ -1,0 +1,11 @@
+.chartline{
+    background-color:  rgba(0, 204, 204, 0.6);
+    /* background-color: rgba(255, 255, 255, 0.71); */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); 
+    padding: 2rem 0;
+    border-radius: 1rem;
+}
+
+.chartline:hover{
+    cursor: pointer;
+}
