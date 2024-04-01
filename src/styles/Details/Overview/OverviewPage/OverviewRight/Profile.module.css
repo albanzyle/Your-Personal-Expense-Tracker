@@ -20,9 +20,7 @@
 }
 
 .edit {
-    position: relative;
-    top: -1rem; 
-    right: 2.2rem;
+    margin-left: -3rem;
     font-size: 20px; /* Adjust the font size of the edit icon as needed */
     color: white;
     background-color: rgb(255, 62, 62);
