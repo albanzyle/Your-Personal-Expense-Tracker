@@ -56,6 +56,8 @@ img{
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* Adjust transparency */
+    z-index: 1;
+
 }
 
 /* continue below with new styles added */
@@ -147,6 +149,7 @@ img{
     font-weight: bold;
     color: #4caf50;
 }
+
 .cardType{
     font-size: 30px;
     font-weight: bold;
