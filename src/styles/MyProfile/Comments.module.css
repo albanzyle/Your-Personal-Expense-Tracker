@@ -1,0 +1,139 @@
+.comments{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding: 5px 10px;
+    padding-bottom:0px;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.255);
+  }
+  
+  .header img {
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    border-radius: 50%; /* Ensures the image is round */
+    margin-right: 10px; /* Adjust spacing as needed */
+  }
+  
+  .header p {
+    margin-right: auto;
+  }
+  
+  .header svg {
+    cursor: pointer; /* Ensures the delete button cursor */
+  }
+
+  .deleteButton {
+    background-color: #ff6347; /* Coral color */
+    color: #fff; /* White text color */
+    margin: 0;
+    padding: 0;
+    border-radius: 1px; /* Rounded corners */
+    cursor: pointer; /* Cursor on hover */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: background-color 0.3s; /* Smooth transition */
+    font-size: 12px; /* Adjust icon size as needed */
+  }
+  .deleteButton > p{
+    padding-right: 3px;
+    border-right: 2px solid rgba(255, 255, 255, 0.7);
+    padding: 5px 5px; /* Adjust padding as needed */
+    margin: 0;
+  }
+  
+  .deleteButton:hover {
+    background-color: #d32f2f; /* Darker coral color on hover */
+  }
+  
+  .deleteIcon {
+    padding: 8px 5px; /* Adjust padding as needed */
+    height: 100%;
+    color: #ffffff; /* Coral color */
+    font-size: 12px; /* Adjust icon size as needed */
+    cursor: pointer; /* Cursor on hover */
+    transition: color 0.3s; /* Smooth transition */
+    padding-left: 5px;
+  }
+.commentInput{
+    display: flex;
+    text-align: center;
+    /* background-color: #d32f2f; */
+    padding-bottom: 5px;
+    max-height: 100px;
+    /* max-height: 400px; */
+
+}
+.commentInput >textarea{
+    display: flex;
+    border: none;
+    padding: 15px 5px 0 0;
+    margin-right: auto;
+    margin-left: 10px;
+    width: 87%;
+    resize: none;
+    /* height: 100%; */
+}
+
+.commentInput >textarea:focus{
+    outline: none;
+}
+
+.commentInput >svg{
+    padding: 15px 0px 15px 15px;
+    cursor: pointer;
+}
+
+.commentInput >svg:last-child{
+    padding: 15px 15px 15px 5px;
+}
+.commentInput >svg:hover{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.likeArea{
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.255);
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    margin-left: auto;
+    padding: 10px 15px;
+}
+
+.details > h4,
+.details > p{
+    margin: 0;
+}
+
+.shareIcon,
+.commentIcon,
+.heartIcon{
+    padding-left: 15px;
+}
+
+.shareIcon:hover,
+.commentIcon:hover,
+.heartIcon:hover{
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.commentsList{
+    margin-bottom: auto;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+    height: 100%;
+    /* height: 90%; */
+}

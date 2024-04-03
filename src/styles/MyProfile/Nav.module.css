@@ -1,0 +1,20 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.nav > div{
+    cursor: pointer;
+}
+
+.nav > div > p{
+    margin: 5px;
+}
+
+.active{
+    border-bottom: 10px solid black;
+}
