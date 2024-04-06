@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Menu from './components/Menu'; // Import Menu component
 import Details from './components/Details'; // Import Details component
-import MyProfile from './components/MyProfile';
+import MyProfile from './components/MyProfile.js';
 import styles from './App.module.css';
 import { Routes, Route } from 'react-router-dom';
 
